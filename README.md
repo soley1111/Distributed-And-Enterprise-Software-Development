@@ -32,7 +32,8 @@ This project is a full-stack web application built as part of the Distributed an
 - **Routing**: React Router
 - **Database**: SQL-based (e.g., PostgreSQL, SQLite)
 - **API & Authentication**: RESTful API with JSON Web Token (JWT) Authentication
-- **Styling**: Custom CSS for a unique and responsive user interface
+- **Styling**: Used Tailwind CSS for a responsive user interface
+- **Showcase & Testing**: Used Docker containers to run the backend and frontend for testing
 
 ## Usage
 
