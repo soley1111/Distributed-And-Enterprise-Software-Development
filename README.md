@@ -1,6 +1,6 @@
 # Distributed and Enterprise Software Development
 
-This project is a full-stack web application built as part of the Distributed and Enterprise Software Development module. It functions as an all-in-one university community hub, developed using React for the frontend and a Django REST Framework for the backend. The platform provides students with a centralized space to join communities, share posts, coordinate events, and connect with peers, demonstrating a comprehensive application of modern web technologies.
+This project is a full-stack web application that functions as an all-in-one university community hub, developed using React for the frontend and a Django REST Framework for the backend. The platform provides students with a centralised space to join communities, share posts, coordinate events, and connect with peers, demonstrating a comprehensive application of modern web technologies.
 
 ## Table of Contents
 - [Features](#features)
