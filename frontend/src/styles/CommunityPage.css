@@ -1,0 +1,183 @@
+.community-page-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    padding-top: 80px; /* Push below navbar */
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .community-header {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+  }
+  
+  .community-header h1 {
+    margin-bottom: 5px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .community-description {
+    color: #666;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  .community-tags {
+    margin: 10px 0 25px;
+  }
+  
+  /* Tag styling */
+  .community-tags span {
+    display: inline-block;
+    background-color: #e0e7ff;
+    color: #3730a3;
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-right: 8px;
+    font-size: 0.85em;
+  }
+  
+  /* Button */
+  .create-post-btn,
+  button[type="submit"] {
+    background-color: #4f46e5;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .create-post-btn:hover,
+  button[type="submit"]:hover {
+    background-color: #4338ca;
+  }
+  
+  /* Post feed */
+  .feed-heading {
+    margin-top: 40px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    color: #222;
+  }
+  
+  /* Post card */
+  .post-card {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .post-card h4 {
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+    color: #111827;
+  }
+  
+  .post-card p {
+    color: #374151;
+    margin-bottom: 8px;
+  }
+  
+  .post-meta {
+    font-size: 0.85em;
+    color: #6b7280;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+  
+  /* Delete button */
+  .delete-post-btn {
+    background-color: #dc2626;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .delete-post-btn:hover {
+    background-color: #b91c1c;
+  }
+  
+  /* Event creation section */
+  .event-create-toggle button {
+    background-color: #16a34a;
+    margin-bottom: 15px;
+  }
+  
+  .event-create-toggle button:hover {
+    background-color: #15803d;
+  }
+  
+  form input[type="text"],
+  form input[type="date"],
+  form input[type="time"],
+  form input[type="number"],
+  form textarea,
+  form select {
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 0.95rem;
+  }
+
+  .tag-pill {
+    display: inline-block;
+    background-color: #eee;
+    padding: 4px 8px;
+    border-radius: 12px;
+    margin: 0 5px;
+    font-size: 0.8em;
+  }
+  
+  .member-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+  }
+  
+  .promote-btn {
+    padding: 4px 8px;
+    font-size: 0.9em;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .event-form input,
+  .event-form textarea,
+  .event-form select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .post-actions {
+    display: flex;
+    gap: 10px; /* space between buttons */
+    margin: 20px 0;
+  }
+  
+  .create-event-btn {
+    margin-left: auto; /* pushes it to the right end of the flex container */
+  }

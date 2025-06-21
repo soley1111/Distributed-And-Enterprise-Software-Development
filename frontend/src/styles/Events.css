@@ -1,0 +1,70 @@
+.events-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .events-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .event-search {
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    margin-bottom: 1.2rem;
+    border-left: 4px solid #007BFF;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .event-card h3 {
+    margin-top: 0;
+  }
+  
+  .signup-button, .delete-button, .joined-button {
+    padding: 0.5rem 1rem;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .signup-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .joined-button {
+    background-color: #ccc;
+    color: black;
+    cursor: default;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .join-warning {
+    color: #dc3545;
+    margin-top: 10px;
+    font-weight: bold;
+  }

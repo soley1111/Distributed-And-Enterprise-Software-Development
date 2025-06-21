@@ -1,0 +1,273 @@
+.communities-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .communities-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .communities-header h1 {
+    color: #e30613;
+    font-size: 2.2rem;
+    margin: 0;
+  }
+  
+  .create-community-btn {
+    background-color: #e30613;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 2;
+  }
+  
+  .create-community-btn:hover {
+    background-color: #c00511;
+  }
+  
+  .communities-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .filter-group label {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .filter-group select,
+  .filter-group input {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: white;
+  }
+  
+  .search-group input {
+    min-width: 200px;
+  }
+  
+  .communities-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+  }
+  
+  .community-card {
+    background-color: white;
+    border: none; /* Ensure no default border */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .community-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .community-header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  
+  .community-header h3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .community-header h3 a:hover {
+    color: #e30613;
+  }
+  
+  .community-category {
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .community-description {
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .community-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .community-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .action-btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .action-btn.join {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .action-btn.join:hover {
+    background-color: #3e8e41;
+  }
+  
+  .action-btn.leave {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .action-btn.leave:hover {
+    background-color: #d32f2f;
+  }
+  
+  .action-btn.delete {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .action-btn.delete:hover {
+    background-color: #e68a00;
+  }
+  
+  .loading, .no-communities {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px;
+    color: #666;
+  }
+  
+  /* Modal styles for community form */
+  .community-form-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .community-form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  .community-form-container h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .form-actions button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .form-actions button[type="button"] {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+  }
+  
+  .form-actions button[type="submit"] {
+    background-color: #e30613;
+    color: white;
+    border: none;
+  }
+  
+  .form-actions button[type="submit"]:hover {
+    background-color: #c00511;
+  }
+
+  .create-community-inline {
+    display: flex;
+    align-items: end;
+    margin-left: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .communities-filters {
+      flex-direction: column;
+    }
+    
+    .communities-list {
+      grid-template-columns: 1fr;
+    }
+  }
